@@ -65,8 +65,8 @@ export default function Footer() {
                         </form>
                         <p className="title">
                             support12@gmail.com
-                            <span>+123 456 7890 12</span>
                         </p>
+                            <span className='one'>+123 456 7890 12</span>
                     </div>
                     <div className="col-auto">
                         <p className="menu">Popular updates</p>

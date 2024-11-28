@@ -122,7 +122,12 @@ header .nav-title .col-lg-12 .box .box-right .css-1umw9bq-MuiSvgIcon-root {
 header .nav-title .col-lg-12 .box .box-right .text {
     display: grid;
 }
-
+header .nav-title .col-lg-12 .box .box-right .text a.email:hover,
+header .nav-title .col-lg-12 .box .box-right .text a.number:hover{
+    cursor: pointer;
+    transition: .3s;
+    color: #fe9e3f;
+}
 header .nav-title .col-lg-12 .box .box-right .text a.number,
 header .nav-title .col-lg-12 .box .box-right .text a.email {
     font-size: 16px;

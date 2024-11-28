@@ -196,16 +196,22 @@ footer form button.bottom:hover .css-1umw9bq-MuiSvgIcon-root {
 }
 
 footer p.title {
-    display: grid;
-    grid-gap: 5px;
     padding-top: 20px;
     font-size: 22px;
     color: white;
     margin-bottom: 0px;
 }
-
-footer p.title span {
+footer p.title:hover,
+footer span.one:hover{
+    cursor: pointer;
+    color: #fe9e3f;
+    transition: .3s;
+}
+footer  span.one {
     color: rgba(255, 255, 255, 0.60);
+    font-size: 22px;
+    padding-top: 5px;
+    display: block;
 }
 
 footer .box-bottom {
@@ -231,7 +237,11 @@ footer .box-bottom .box-right .text a {
     color: white;
     text-decoration: none;
 }
-
+footer .box-bottom .box-right .text a:hover{
+    cursor: pointer;
+    color: #fe9e3f;
+    transition: .3s;
+}
 footer .box-bottom .box-right .text span {
     color: rgba(255, 255, 255, 0.60);
     font-size: 15px;
@@ -242,7 +252,12 @@ footer p.late-left {
     margin-bottom: 0px;
     color: rgba(255, 255, 255, 0.60);
 }
-
+footer p.late-left span:hover,
+footer p.late-right:hover{
+    cursor: pointer;
+    transition: .3s;
+    color: #fe9e3f;
+}
 footer p.late-left span {
     color: white;
 }
