@@ -1,0 +1,26 @@
+nav.top{
+    width: 100%;
+    background: #262626;
+    padding: 10px 25px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1111;
+}
+nav.top .col-lg-12{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.top .col-lg-12 img{
+    width: 150px;
+}
+nav.top .col-lg-12 button.nav-top{
+    padding: 4px 20px 6px 20px;
+    font-size: 14px;
+    color: white;
+    background: #82b440;
+    border: none;
+    border-radius: 4px;
+}

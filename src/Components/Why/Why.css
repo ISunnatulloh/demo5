@@ -1,0 +1,61 @@
+section.why{
+    width: 100%;
+    padding-top: 100px;
+}
+section.why p.top{
+    font-size: 18px;
+    /* line-height: 26px; */
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+section.why h1.top{
+    font-size: 50px;
+    /* line-height: 74px; */
+    font-weight: 600;
+    color: #060616;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+section.why .box{
+    text-align: center;
+    padding: 35px 42px;
+    border-radius: 50%;
+    border: 7px solid #e6e6e6;
+    height: 100%;
+}
+section.why .box p.number{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fe9e3f;
+    margin-bottom: 0px;
+}
+section.why .box p.title{
+    font-size: 30px;
+    margin-bottom: 0px;
+    color: #060616;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+section.why .box p.bottom{
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #4c4c4c;
+}
+section.why .corusel{
+    margin-top: 100px;
+    border-top: 2px solid black;
+    padding: 20px 0px;
+}
+
+section.why .corusel .swiper-slide{
+    display: flex;
+    align-items: center;  
+}
+section.why .corusel .swiper-slide img{
+    margin-left: 50px;
+}
+section.why .corusel .swiper-wrapper{
+    align-items: center !important;
+}

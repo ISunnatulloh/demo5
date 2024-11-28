@@ -1,0 +1,46 @@
+section.textile{
+    width: 100%;
+    padding: 100px 0px;
+}
+section.textile h5{
+    font-size: 18px;
+    /* line-height: 26px; */
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+section.textile h1{
+    font-size: 50px;
+    /* line-height: 74px; */
+    font-weight: 600;
+    color: #060616;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+section.textile .bigcard{
+    box-shadow:  0 0 70px rgb(205, 205, 205);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+section.textile .bigcard .cardin{
+    padding: 20px;
+}
+section.textile .bigcard .cardin h3{
+    padding-top: 10px;
+    font-size: 25px;
+    /* line-height: 42px; */
+    font-weight: 500;
+    color: black;
+}
+section.textile .bigcard .cardin p.text{
+    font-size: 17px;
+    /* line-height: 30px; */
+    color: black;
+    opacity: 0.8;
+}
+section.textile img {
+    border-radius: 25px;
+    height: 100%;
+}
