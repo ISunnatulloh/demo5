@@ -130,10 +130,10 @@ export default function Why() {
             <div className="corusel">
                             <Swiper
                                 slidesPerView={5}
-                                spaceBetween={50}
+                                spaceBetween={10}
                                 loop={true}
                                    autoplay={{
-                                     delay: 100,
+                                     delay: 500,
                                      disableOnInteraction: false,
                                    }}
                                 modules={[Autoplay, Pagination, Navigation]}

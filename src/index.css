@@ -13,3 +13,7 @@ video{
   height: auto;
   max-width: 100%;
 }
+
+body{
+  font-family: Merriweather, Georgia, "Syne", Arial, Helvetica, sans-serif !important;
+}

@@ -1,0 +1,112 @@
+.aboutpeople {
+    width: 100%;
+    padding: 70px 0px;
+}
+.aboutpeople .row{
+    grid-row-gap: 50px;
+}
+.aboutpeople .box {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 15px;
+}
+
+.aboutpeople .box img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.aboutpeople .box p.name {
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #060616;
+    font-size: 26px;
+}
+
+.aboutpeople .box p.title {
+    margin-bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+    color: #060616;
+}
+
+.aboutpeople .box .icon {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aboutpeople .box .icon i.fa-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0d0d0d47;
+    border-radius: 50%;
+    color: #0d0d0d47;
+}
+
+.aboutpeople .box {
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutpeople .box:hover .box-hover {
+    cursor: pointer;
+    transition: .5s;
+    bottom: 0px;
+}
+
+.aboutpeople .box-hover {
+    position: absolute;
+    bottom: -400px;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    left: 0px;
+    padding: 0px 30px;
+    transition: .5s;
+    background: #fe9e3f;
+    border-radius: 15px;
+}
+
+.aboutpeople .box-hover p.hover-name {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.aboutpeople .box-hover p.hover-title {
+    margin-bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.aboutpeople .box-hover .icon i.fa-brands {
+    color: white;
+    border: 1px solid white;
+}
+
+.aboutpeople .box-hover .icon i.fa-brands:hover {
+    cursor: pointer;
+    background: white;
+    color: #fe9e3f;
+    transition: .3s;
+}
+
+.aboutpeople .box-hover p.bottom {
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}

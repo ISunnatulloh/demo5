@@ -1,0 +1,60 @@
+.aboutabout{
+    width: 100%;
+    padding: 70px 0px;
+}
+.aboutabout p.top{
+    font-size: 18px;
+    /* line-height: 26px; */
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.aboutabout h1.top{
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    padding-bottom: 70px;
+}
+
+.aboutabout .col-lg-4:nth-child(2) .box{
+    background: #fe9e3f;
+}
+.aboutabout .col-lg-4:nth-child(3) .box{
+    background: #060616  url('../../../../Assisstest/img/about\ foto1.png') no-repeat center / cover;
+}
+.aboutabout .col-lg-4:nth-child(4) .box{
+    background: #060616 url('../../../../Assisstest/img/about\ foto2.png') no-repeat center / cover;
+}
+.aboutabout .box{
+    padding: 30px;
+    border-radius: 15px;
+    height: 100%;
+}
+.aboutabout .box img{
+    width: 60px;
+    padding-bottom: 163px;
+}
+.aboutabout .box p.number{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0px;
+    font-weight: 500;
+    padding-bottom: 150px;
+}
+.aboutabout .box p.title{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+.aboutabout .box p.bottom{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0px;
+}
