@@ -80,7 +80,7 @@ export default function Navbar() {
                                         <a className='bo-text' href='#!'>Services</a>
                                         <a className='bo-text' href='#!'>Our team</a>
                                         <a className='bo-text' href='#!'>Team details</a>
-                                        <a className='bo-text' href='#!'>Contact us</a>
+                                        <Link className='bo-text' to='/contact'>Contact us</Link>
                                     </div>
                                 </li>
                                 <li className='li2' >
@@ -105,7 +105,7 @@ export default function Navbar() {
                                     <a className='a-text' href="#!">Blog</a>
                                 </li>
                                 <li>
-                                    <a className='a-text' href="#!">Contact us</a>
+                                <Link className='a-text' to='/contact'>Contact us</Link>
                                 </li>
                             </ul>
 

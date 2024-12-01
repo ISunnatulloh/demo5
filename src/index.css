@@ -14,6 +14,10 @@ video{
   max-width: 100%;
 }
 
-body{
+a.number{
   font-family: Merriweather, Georgia, "Syne", Arial, Helvetica, sans-serif !important;
+}
+
+body{
+  font-family: Merriweather,  sans-serif !important;
 }
