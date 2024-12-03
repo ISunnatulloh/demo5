@@ -112,7 +112,7 @@ section.services .title .box p.one {
     margin-bottom: 0px;
 }
 
-section.services .title .box:hover .bottom .css-1umw9bq-MuiSvgIcon-root {
+section.services .title .box:hover .bottom svg {
     cursor: pointer;
     transform: rotate(45deg);
     transition: .3s;
@@ -130,7 +130,7 @@ section.services .title .box:hover .bottom p.two {
     z-index: 11;
 }
 
-section.services .title .box .css-1umw9bq-MuiSvgIcon-root {
+section.services .title .box svg {
     z-index: 1;
     font-size: 50px;
 }
@@ -156,7 +156,7 @@ section.services .title .box .css-1umw9bq-MuiSvgIcon-root {
     section.services .title .box p.one{
         font-size: 25px;
     }
-    section.services .title .box .css-1umw9bq-MuiSvgIcon-root{
+    section.services .title .box svg{
         font-size: 35px;
     }
 }

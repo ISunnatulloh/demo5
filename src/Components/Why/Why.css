@@ -62,7 +62,47 @@ section.why .corusel .swiper-slide img{
 section.why .corusel .swiper-wrapper{
     align-items: center !important;
 }
+.logo-slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+}
 
+.logos-slide {
+    display: flex;
+    animation: slide 20s linear infinite;
+}
+
+.logos-slide_item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 25px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logos-slide img {
+    margin-left: 10px;
+}
+
+/* Animatsiya */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Tarkibning yarmi */
+    }
+}
+
+/* Hover qilinganda animatsiyani to'xtatish */
+.logo-slider:hover .logos-slide {
+    animation-play-state: paused;
+}
 
 @media(max-width:1199px){
     section.why{

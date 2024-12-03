@@ -39,13 +39,13 @@ header .header-title .box-bottom a {
     font-weight: 600;
 }
 
-header .header-title .box-bottom a .css-1umw9bq-MuiSvgIcon-root {
+header .header-title .box-bottom a svg {
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
-header .header-title .box-bottom a:hover .css-1umw9bq-MuiSvgIcon-root {
+header .header-title .box-bottom a:hover svg {
     cursor: pointer;
     transition: .3s;
     transform: rotate(50deg);

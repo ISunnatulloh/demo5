@@ -68,7 +68,7 @@ display: flex;
     padding: 20px 0px;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
   }
-  .aboutour .right-box .two .box .text .css-1umw9bq-MuiSvgIcon-root{
+  .aboutour .right-box .two .box .text svg{
     color: white;
     font-size: 30px;
   }
@@ -125,7 +125,7 @@ display: flex;
     .aboutour .right-box .two .box .text p.title{
       font-size: 20px;
     }
-    .aboutour .right-box .two .box .text .css-1umw9bq-MuiSvgIcon-root{
+    .aboutour .right-box .two .box .text svg{
       font-size: 25px;
     }
     .aboutour .right-box .two{
