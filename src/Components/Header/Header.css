@@ -53,10 +53,67 @@ header .header-title .box-bottom a:hover .css-1umw9bq-MuiSvgIcon-root {
 
 
 header .header-title .box-bottom p.bottom {
-    color: white;
+    color: #ffffffcc;
     margin-bottom: 0px;
+    font-size: 16px;
 }
 
 header .header-title .corusel {
     padding-bottom: 80px;
+}
+
+
+@media(max-width:1199px){
+    header .header-title h1.top{
+        font-size: 95px;
+        text-align: center;
+    }
+    header .header-title h1.top img{
+        width: 300px;
+    }
+}
+
+@media(max-width:991px){
+    header .header-title h1.top{
+        font-size: 70px;
+        padding-top: 100px;
+    }
+    header .header-title h1.top img{
+        width: 250px;
+    }
+}
+@media(max-width:767px){
+    header .header-title h1.top{
+        font-size: 55px;
+    }
+    header .header-title h1.top img{
+        width: 200px;
+    }
+    
+    header .header-title .box-bottom a{
+        padding: 20px 30px;
+    }
+    header .header-title .corusel{
+        padding-bottom: 30px;
+    }
+}
+@media(max-width:575px){
+    header .header-title h1.top{
+        font-size: 40px;
+    }
+    header .header-title h1.top img{
+        width: 100px;
+    }
+    header .header-title .box-bottom{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    header .swiper-backface-hidden .swiper-slide{
+        width: 25% !important;
+        margin-right: 30px !important;
+    }
+    header .header-title .box-bottom p.bottom{
+        font-size: 13px;
+        text-align: center;
+    }
 }

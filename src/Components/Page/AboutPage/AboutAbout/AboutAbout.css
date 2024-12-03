@@ -58,3 +58,42 @@
     color: white;
     margin-bottom: 0px;
 }
+
+
+@media(max-width:991px){
+    .aboutabout h1.top{
+        padding-bottom: 40px;
+    }
+    .aboutabout .row{
+        grid-row-gap: 30px;
+    }
+}
+
+@media(max-width:767px){
+    .aboutabout h1.top{
+        font-size: 40px;
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width:575px){
+    .aboutabout{
+        padding: 50px 0px;
+    }
+    .aboutabout h1.top{
+        font-size: 30px;
+    }
+    .aboutabout p.top{
+        font-size: 15px;
+    }
+    .aboutabout .box p.title{
+        font-size: 25px;
+    }
+    .aboutabout .box p.number{
+        font-size: 40px;
+        padding-bottom: 70px;
+    }
+    .aboutabout .box img{
+        padding-bottom: 70px;
+    }
+}

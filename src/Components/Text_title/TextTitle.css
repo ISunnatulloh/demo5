@@ -44,3 +44,33 @@ section.textile img {
     border-radius: 25px;
     height: 100%;
 }
+
+
+@media(max-width:991px){
+    section.textile h5,
+    section.textile h1{
+        text-align: center;
+    }
+    section.textile .row{
+        grid-row-gap: 40px;
+    }
+    section.textile img{
+        width: 100%;
+    }
+}
+
+@media(max-width:575px){
+    section.textile h5{
+        font-size: 15px;
+    }
+    section.textile{
+        padding: 50px 0px;
+    }
+    section.textile h1{
+        font-size: 30px;
+    }
+    section.textile .bigcard{
+        text-align: center;
+        box-shadow: 2px 2px 70px rgb(205, 205, 205);
+    }
+}

@@ -53,3 +53,35 @@ grid-gap: 5px;
     transition: .3s;
     color: #fe9e3f;
 }
+
+
+@media(max-width:991px){
+    .aboutheader{
+        padding-top: 170px;
+    }
+    .aboutheader h1.top{
+        font-size: 60px;
+    }
+}
+
+@media(max-width:575px){
+    .aboutheader{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .aboutheader h1.top{
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .aboutheader .box img{
+        display: none;
+    }
+    .aboutheader .box .text p.top{
+        font-size: 24px;
+    }
+    .aboutheader .box .text a.number{
+        font-size: 30px;
+        text-align: center;
+    }
+}

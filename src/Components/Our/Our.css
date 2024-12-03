@@ -23,3 +23,54 @@ section.our h1.top{
 section.our h1.top img{
     border-radius: 50px;
 }
+
+
+@media(max-width:991px){
+    section.our h1.top{
+        font-size: 45px;
+    }
+    section.our h1.top img:nth-child(1){
+        width: 60px;
+    }
+    section.our h1.top img:nth-child(3),
+    section.our h1.top img:nth-child(5){
+        width: 150px;
+    }
+}
+
+@media(max-width:767px){
+    section.our h1.top{
+        font-size: 35px;
+    }
+    section.our h1.top img:nth-child(1){
+        width: 50px;
+    }
+    section.our h1.top img:nth-child(3),
+    section.our h1.top img:nth-child(5){
+        width: 130px;
+    }
+}
+
+@media(max-width:575px){
+    section.our{
+        padding: 30px 0px;
+    }
+    section.services p.top{
+        font-size: 15px;
+    }
+    section.our h1.top{
+        font-size: 18px;
+    }
+    section.our h1.top img:nth-child(1){
+        width: 30px;
+    }
+    section.our h1.top img:nth-child(3),
+    section.our h1.top img:nth-child(5){
+        width: 80px;
+    }
+    section.our p.top{
+        font-size: 15px;
+        padding-bottom: 10px;   
+    }
+
+}

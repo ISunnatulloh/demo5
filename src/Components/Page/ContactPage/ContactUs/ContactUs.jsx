@@ -16,7 +16,7 @@ export default function ContactUs() {
                         <input type="text" placeholder='Name' />
                         <input type="email" placeholder='Email address' />
                         <input type="text" placeholder='Phone number' />
-                        <textarea name="" id="" cols="" rows="5"></textarea>
+                        <textarea name="" id="" cols="" rows="5" placeholder='Message'></textarea>
                         <button className='contact'>Submit</button>
                     </form>
                     <h1 className="top">
