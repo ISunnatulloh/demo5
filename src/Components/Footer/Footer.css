@@ -52,7 +52,7 @@ footer h1.top {
     margin-bottom: 0px;
 }
 
-footer h1.top .css-1umw9bq-MuiSvgIcon-root {
+footer h1.top svg {
     color: #fcb900;
     font-size: 40px;
 }
@@ -82,7 +82,7 @@ footer button.right:hover {
     transition: 1s;
 }
 
-footer button.right .css-1umw9bq-MuiSvgIcon-root {
+footer button.right svg {
     padding: 5px;
     border-radius: 50%;
     color: white;
@@ -107,7 +107,7 @@ footer button.right:hover::before {
     right: 0px;
 }
 
-footer button.right:hover .css-1umw9bq-MuiSvgIcon-root {
+footer button.right:hover svg {
     transform: rotate(40deg);
     transition: .6s;
 }
@@ -164,7 +164,7 @@ footer form input{
 footer form input::placeholder{
     color: #ffffff99;
 }
-footer form button.bottom .css-1umw9bq-MuiSvgIcon-root{
+footer form button.bottom svg{
     color: white;
 }
 footer form button.bottom{
@@ -176,12 +176,12 @@ footer form button.bottom{
     align-items: center;
     grid-gap: 5px;
 }
-footer form button.bottom .css-1umw9bq-MuiSvgIcon-root{
+footer form button.bottom svg{
     font-size: 15px;
     transition: .3s;
 }
 
-footer form button.bottom:hover .css-1umw9bq-MuiSvgIcon-root{
+footer form button.bottom:hover svg{
     cursor: pointer;
     transition: .3s;
     transform: rotate(45deg);
@@ -303,7 +303,7 @@ footer p.last-right{
     }
 }
 @media (max-width: 575px){
-    footer h1.top .css-1umw9bq-MuiSvgIcon-root {
+    footer h1.top svg {
         color: #fcb900;
         font-size: 27px;
     }
