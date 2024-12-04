@@ -1,13 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import './Why.css'
 import star from '../../Assisstest/img/star.png'
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/autoplay';
-
-// Optional Swiper modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function Why() {
     const [count1, setCount1] = useState(0);
     const [count2, setCount2] = useState(0);
