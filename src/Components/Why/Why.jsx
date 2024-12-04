@@ -1,13 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import './Why.css'
 import star from '../../Assisstest/img/star.png'
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/autoplay';
-
-// Optional Swiper modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function Why() {
     const [count1, setCount1] = useState(0);
     const [count2, setCount2] = useState(0);
@@ -104,40 +97,29 @@ export default function Why() {
                 </div>
 
             </div>
-            <div className="corusel">
-                <Swiper
-                    slidesPerView={5}
-                    spaceBetween={10}
-                    loop={true}
-                    autoplay={{
-                        delay: 500,
-                        disableOnInteraction: false,
-                    }}
-                    modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"
-                >
-                    <SwiperSlide>Pigment Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Flexography <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Offset Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Transfer Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Pigment Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Flexography <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Offset Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Transfer Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Pigment Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Flexography <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Offset Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Transfer Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Pigment Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Flexography <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Offset Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Pigment Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Transfer Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Flexography <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Offset Printing <img src={star} alt="" /></SwiperSlide>
-                    <SwiperSlide>Transfer Printing <img src={star} alt="" /></SwiperSlide>
-                </Swiper>
+            <div className="carousel">
+                <div className="logo-slider">
+                    <div className="logos-slide">
+                        <div className="logos-slide_item">Pigment Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Flexography <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Offset Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Transfer Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Pigment Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Flexography <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Offset Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Transfer Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Pigment Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Flexography <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Offset Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Transfer Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Pigment Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Flexography <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Offset Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Transfer Printing <img src={star} alt=""/></div>
+                    </div>
+                </div>
             </div>
+
         </section>
     )
 }
