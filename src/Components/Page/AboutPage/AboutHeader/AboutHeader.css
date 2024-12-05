@@ -47,6 +47,7 @@ grid-gap: 5px;
     text-decoration: none;
     color: white;
     font-size: 40px;
+    transition: .3s;
 }
 .aboutheader .box .text a.number:hover{
     cursor: pointer;

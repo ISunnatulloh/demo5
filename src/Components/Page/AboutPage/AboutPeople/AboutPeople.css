@@ -95,6 +95,7 @@
 .aboutpeople .box-hover .icon i.fa-brands {
     color: white;
     border: 1px solid white;
+    transition: .3s;
 }
 
 .aboutpeople .box-hover .icon i.fa-brands:hover {
