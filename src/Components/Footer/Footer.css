@@ -257,49 +257,71 @@ footer p.last-right{
     color: white;
     margin-bottom: 0px; 
 }
-@media (max-width: 1199px) {
-    footer p.menu {
-        text-align: center;
-    }
-}
 @media (max-width: 991px){
+    footer .box-bottom .box .text a.right{
+        font-size: 16px;
+    }
     footer h1.top {
         font-size: 30px;
     }
     footer .row:nth-child(2) .col-auto{
-        width: 100%;
+        width: 50%;
     }
     footer .row:nth-child(2) {
-        display: grid;
-        grid-template-columns: repeat(2,auto);
         grid-row-gap: 30px;
     }
    
-    footer p.last-left {
-        font-size: 10px;
-    }
+ 
     footer p.menu {
         text-align: unset;
     }
 }
-@media (max-width: 991px){
+@media (max-width: 767px){
     footer h1.top {
         font-size: 30px;
+        text-align: center;
+        padding-bottom: 20px;
     }
     /* footer .row:nth-child(2) .col-auto{
         width: 100% !important;
     } */
-    footer .row:nth-child(2) { 
-        display: grid;
-        grid-template-columns: repeat(1,auto);
-        grid-row-gap: 30px;
-    }
+    /* footer .row:nth-child(2) { 
+       flex-direction: column;
+       grid-gap: 20px;
+    } */
     footer .col-lg-12{
-        display: grid;
+       flex-direction: column;
+    }
+    footer .box-bottom .box .text a.right{
+        font-size: 14px;
+    }
+    footer .box-bottom .box .text p.right{
+        font-size: 13px;
+    }
+    footer .box-bottom .box img{
+        width: 85px;
+        height: 65px;
+    }
+    footer form input,
+    footer form button.bottom{
+        font-size: 14px;
+    }
+    footer form .css-1umw9bq-MuiSvgIcon-root{
+        font-size: 18px;
     }
     footer button.right{
         display: flex;
         justify-content: center;
+        width: 100%;
+    }
+    footer p.last-right{
+        font-size: 10px;
+        text-align: center;
+    }
+    footer p.last-left {
+        font-size: 10px;
+        text-align: center;
+        padding-bottom: 8px;
     }
 }
 @media (max-width: 575px){
@@ -311,13 +333,12 @@ footer p.last-right{
         margin-top: 20px;
     }
     footer p.menu{
-        font-size: 21px;
-    }
-    footer .text-top a.email{
         font-size: 20px;
+        padding-bottom: 15px;
     }
+    footer .text-top a.email,
     footer .text-top a.number{
-        font-size: 20px;
+        font-size: 18px;
     }
     footer .box-bottom .box .text a.right{
         font-size: 14px;
@@ -325,5 +346,29 @@ footer p.last-right{
     footer h1.top{
         align-items: flex-end;
         grid-gap: 0px;
+        padding-bottom: 0px;
+        text-align: unset;
+        display: unset;
+    }
+    footer .row:nth-child(1){
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+    footer .row:nth-child(2),
+    footer .row:nth-child(3){
+        padding-bottom: 20px;
+    }
+    footer{
+        padding-top: 30px;
+    }
+    footer .box-bottom{
+        grid-gap: 20px;
+    }
+    footer .row:nth-child(2){
+        flex-direction: column;
+        grid-gap: 20px;
+    }
+    footer .row:nth-child(2) .col-auto{
+        width: 100%;
     }
 }
