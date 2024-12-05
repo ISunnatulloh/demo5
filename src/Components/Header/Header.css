@@ -43,6 +43,7 @@ header .header-title .box-bottom a svg {
     display: flex;
     justify-content: center;
     margin: auto;
+    transition: .3s;
 }
 
 header .header-title .box-bottom a:hover svg {
