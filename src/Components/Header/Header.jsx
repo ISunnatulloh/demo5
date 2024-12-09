@@ -3,10 +3,10 @@ import './Header.css'
 import NorthEastIcon from '@mui/icons-material/NorthEast';
 import foto from '../../Assisstest/img/header title.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import starp from '../../Assisstest/img/starp.png'
-import morgip from '../../Assisstest/img/margib.png'
-import desion from '../../Assisstest/img/desion.png'
-import creation from '../../Assisstest/img/creation.png'
+// import starp from '../../Assisstest/img/starp.png'
+// import morgip from '../../Assisstest/img/margib.png'
+// import desion from '../../Assisstest/img/desion.png'
+// import creation from '../../Assisstest/img/creation.png'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -32,7 +32,7 @@ export default function Header() {
 
               <div className="corusel">
                 <Swiper
-                  slidesPerView={6}
+                  slidesPerView={5}
                   spaceBetween={50}
                   loop={true}
                   autoplay={{
@@ -42,15 +42,14 @@ export default function Header() {
                   modules={[Autoplay, Pagination, Navigation]}
                   className="mySwiper"
                 >
-                  <SwiperSlide><img src={starp} alt="" /></SwiperSlide>
-                  <SwiperSlide><img src={starp} alt="" /></SwiperSlide>
-                  <SwiperSlide><img src={morgip} alt="" /></SwiperSlide>
-                  <SwiperSlide><img src={starp} alt="" /></SwiperSlide>
-                  <SwiperSlide><img src={desion} alt="" /></SwiperSlide>
-                  <SwiperSlide><img src={creation} alt="" /></SwiperSlide>
-                  <SwiperSlide><img src={morgip} alt="" /></SwiperSlide>
-                  <SwiperSlide><img src={starp} alt="" /></SwiperSlide>
-                  <SwiperSlide><img src={desion} alt="" /></SwiperSlide>
+                  <SwiperSlide><p className="slide">Zinger JACK</p></SwiperSlide>
+                  <SwiperSlide><p className="slide">Overlock JACK</p></SwiperSlide>
+                  <SwiperSlide><p className="slide">DOSO Richman</p></SwiperSlide>
+                  <SwiperSlide><p className="slide">JUKI</p></SwiperSlide>
+                  <SwiperSlide><p className="slide">MALRAM</p></SwiperSlide>
+                  <SwiperSlide><p className="slide">STEAM</p></SwiperSlide>
+                  <SwiperSlide><p className="slide">BOILER</p></SwiperSlide>
+                  <SwiperSlide><p className="slide">MEK-80</p></SwiperSlide>
                 </Swiper>
               </div>
             </div>

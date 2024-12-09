@@ -2,69 +2,69 @@ import React, { useEffect, useState, useRef } from 'react'
 import './Why.css'
 import star from '../../Assisstest/img/star.png'
 export default function Why() {
-    const [count1, setCount1] = useState(0);
-    const [count2, setCount2] = useState(0);
-    const [count3, setCount3] = useState(0);
+    // const [count1, setCount1] = useState(0);
+    // const [count2, setCount2] = useState(0);
+    // const [count3, setCount3] = useState(0);
 
-    // Create ref to the section you want to track
-    const sectionRef = useRef(null);
+    // // Create ref to the section you want to track
+    // const sectionRef = useRef(null);
 
-    // 1st number counting animation
-    useEffect(() => {
-       const tim1 = setInterval(() => {
-            const timer1 = setInterval(() => {
-                setCount1((prevCount) => {
-                    if (prevCount < 70) {
-                        return prevCount + 1;
-                    } else {
-                        clearInterval(timer1);
-                        return prevCount;
-                    }
-                });
-            }, 140);
-            return () => clearInterval(timer1);
-        }, 7000);
-        return () => clearInterval(tim1)
-    }, []);
+    // // 1st number counting animation
+    // useEffect(() => {
+    //    const tim1 = setInterval(() => {
+    //         const timer1 = setInterval(() => {
+    //             setCount1((prevCount) => {
+    //                 if (prevCount < 70) {
+    //                     return prevCount + 1;
+    //                 } else {
+    //                     clearInterval(timer1);
+    //                     return prevCount;
+    //                 }
+    //             });
+    //         }, 140);
+    //         return () => clearInterval(timer1);
+    //     }, 7000);
+    //     return () => clearInterval(tim1)
+    // }, []);
 
-    // 2nd number counting animation
-    useEffect(() => {
-        const tim2 = setInterval(() => {
-            const timer2 = setInterval(() => {
-                setCount2((prevCount) => {
-                    if (prevCount < 96) {
-                        return prevCount + 1;
-                    } else {
-                        clearInterval(timer2);
-                        return prevCount;
-                    }
-                });
-            }, 100);
-            return () => clearInterval(timer2);
-        }, 7000);
-        return () => clearInterval(tim2)
-    }, []);
+    // // 2nd number counting animation
+    // useEffect(() => {
+    //     const tim2 = setInterval(() => {
+    //         const timer2 = setInterval(() => {
+    //             setCount2((prevCount) => {
+    //                 if (prevCount < 96) {
+    //                     return prevCount + 1;
+    //                 } else {
+    //                     clearInterval(timer2);
+    //                     return prevCount;
+    //                 }
+    //             });
+    //         }, 100);
+    //         return () => clearInterval(timer2);
+    //     }, 7000);
+    //     return () => clearInterval(tim2)
+    // }, []);
 
-    // 3rd number counting animation
-    useEffect(() => {
-        const tim3 = setInterval(() => {
-            const timer3 = setInterval(() => {
-                setCount3((prevCount) => {
-                    if (prevCount < 92) {
-                        return prevCount + 1;
-                    } else {
-                        clearInterval(timer3);
-                        return prevCount;
-                    }
-                });
-            }, 100);
-            return () => clearInterval(timer3);
-        }, 7000);
-        return () => clearInterval(tim3)
-    }, []);
+    // // 3rd number counting animation
+    // useEffect(() => {
+    //     const tim3 = setInterval(() => {
+    //         const timer3 = setInterval(() => {
+    //             setCount3((prevCount) => {
+    //                 if (prevCount < 92) {
+    //                     return prevCount + 1;
+    //                 } else {
+    //                     clearInterval(timer3);
+    //                     return prevCount;
+    //                 }
+    //             });
+    //         }, 100);
+    //         return () => clearInterval(timer3);
+    //     }, 7000);
+    //     return () => clearInterval(tim3)
+    // }, []);
     return (
         <section className='why'>
-            <div ref={sectionRef} className="container">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <p className="top">//Бизнес-бустWhy us</p>
@@ -75,22 +75,22 @@ export default function Why() {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="box">
-                            <p className="number">{count1}%</p>
-                            <p className="title">2500-8000 <br/> единиц в день</p>
+                            <p className="number">2500-8000</p>
+                            <p className="title">Единиц в день</p>
                             <p className="bottom">Разнообразие продукции и производственные объемы</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="box">
-                            <p className="number">{count2}%</p>
-                            <p className="title">98,7% Экспортная направленность</p>
+                            <p className="number">98,7%</p>
+                            <p className="title">Экспортная направленность</p>
                             <p className="bottom">Мы обеспечиваем международные поставки и стремимся расширять географию наших клиентов, предлагая конкурентоспособную продукцию</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="box">
-                            <p className="number">{count3}%</p>
-                            <p className="title">2 миллиарда сум Ежемесячный объем производства</p>
+                            <p className="number">2 миллиарда</p>
+                            <p className="title">сум Ежемесячный объем производства</p>
                             <p className="bottom">Это подтверждает высокий уровень <br/>нашей производственной мощности и стабильность финансовых показателей</p>
                         </div>
                     </div>

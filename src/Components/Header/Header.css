@@ -60,11 +60,22 @@ header .header-title .box-bottom p.bottom {
 }
 
 header .header-title .corusel {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
-
+header p.slide{
+    color: #969696;
+    font-size: 25px;
+    margin-bottom: 0px;
+    text-align: center;
+}
 @media(max-width:1199px){
+    header p.slide{
+        font-size: 20px;
+    }
+    header .header-title .corusel{
+        padding-bottom: 40px;
+    }
     header .header-title h1.top{
         font-size: 95px;
         text-align: center;
@@ -75,6 +86,9 @@ header .header-title .corusel {
 }
 
 @media(max-width:991px){
+    .swiper-backface-hidden .swiper-slide{
+        width: 20% !important;
+    }
     header .header-title h1.top{
         font-size: 70px;
         padding-top: 100px;
@@ -90,7 +104,10 @@ header .header-title .corusel {
     header .header-title h1.top img{
         width: 200px;
     }
-    
+    .swiper-backface-hidden .swiper-slide{
+        width: 28% !important;
+        margin-right: 30px !important;
+    }
     header .header-title .box-bottom a{
         padding: 25px 20px;
     }
@@ -109,12 +126,15 @@ header .header-title .corusel {
         flex-direction: column;
         padding-bottom: 30px;
     }
-    header .swiper-backface-hidden .swiper-slide{
-        width: 25% !important;
-        margin-right: 30px !important;
-    }
     header .header-title .box-bottom p.bottom{
         font-size: 13px;
         text-align: center;
+    }
+    .swiper-backface-hidden .swiper-slide{
+        width: 35% !important;
+        margin-right: 10px !important;
+    }
+    header p.slide{
+        font-size: 13px;
     }
 }
