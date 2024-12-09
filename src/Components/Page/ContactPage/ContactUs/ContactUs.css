@@ -73,11 +73,13 @@
 .contactus .box .two form textarea::placeholder{
     color: #686e73;
 }
-.contactus .box .two form button.contact {
+.contactus .box .two form a.contact {
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 12px 0px;
     border: none;
+    text-align: center;
+    text-decoration: none;
     background: transparent;
     border: 1px solid #c2c2c2;
     font-size: 15px;
@@ -86,7 +88,7 @@
     transition: .3s;
 }
 
-.contactus .box .two form button.contact:hover {
+.contactus .box .two form a.contact:hover {
     cursor: pointer;
     transition: .3s;
     background: #fe9e3f;
@@ -199,7 +201,7 @@
     }
     .contactus .box .two h1.top,
     .contactus .box .two p.media{
-        font-size: 30px;
+        font-size: 28px;
     }
     .contactus .box .two p.media{
         padding: 10px 0px;
@@ -223,7 +225,7 @@
         margin-bottom: 15px;
         padding-bottom: 15px;
     }
-    .contactus .box .two form button.contact{
+    .contactus .box .two form a.contact{
         margin-top: 0px;
         margin-bottom: 20px;
     }

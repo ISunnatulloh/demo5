@@ -8,8 +8,8 @@ export default function AboutOur() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <p className="top">//Our approach</p>
-                        <h1 className="top">One of the leaders in textile market</h1>
+                        <p className="top">//ваш текстильный партнёр</p>
+                        <h1 className="top">Мы – ваш надежный партнер в мире текстиля!</h1>
                         <div className="right-box">
                             <div className="one">
                                 <img src={foto} alt="" />
@@ -18,46 +18,47 @@ export default function AboutOur() {
                                 <div className="box">
                                     <div className="text">
                                         <CheckCircleIcon />
-                                        <p className="title">Portfolio managements</p>
+                                        <p className="title">Современное оборудование</p>
                                     </div>
                                     <p className="bottom">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                        Мы располагаем передовыми машинами и станками от ведущих производителей из Китая и Турции:   Zinger JACK, Overlock JACK, DOSO Richman, JUKI
                                     </p>
                                 </div>
                                 <div className="box">
                                     <div className="text">
                                         <CheckCircleIcon />
-                                        <p className="title">Finance & restructuring</p>
+                                        <p className="title">Уникальные технологии:</p>
                                     </div>
                                     <p className="bottom">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                        Наша фабрика оснащена паровым гладильным аппаратом MALRAM в комплекте с паровым котлом MEK-80, что позволяет нам добиваться высокой производственной эффективности и качества готовой продукции.
                                     </p>
                                 </div>
                                 <div className="box">
                                     <div className="text">
                                         <CheckCircleIcon />
-                                        <p className="title">Technology advisory</p>
+                                        <p className="title">Наши мощности</p>
                                     </div>
                                     <p className="bottom">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                        Производственная площадь: 2800м²
+                                        Количество сотрудников: 250 квалифицированных специалистов, обеспечивающих высокие стандарты производства и контроля качества.
                                     </p>
                                 </div>
                                 <div className="box">
                                     <div className="text">
                                         <CheckCircleIcon />
-                                        <p className="title">Project management</p>
+                                        <p className="title">Объем производства и экспортные достижения</p>
                                     </div>
                                     <p className="bottom">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                    Ежедневное производство нашей компании варьируется от 2500 до 8000 единиц продукции в зависимости от типа изделий, из которых впечатляющие 98,7% отправляются на экспорт. В среднем в месяц мы выпускаем продукцию на сумму около 2 миллиардов сумов, что подтверждает стабильность и эффективность нашей работы.
                                     </p>
                                 </div>
                                 <div className="box">
                                     <div className="text">
                                         <CheckCircleIcon />
-                                        <p className="title">Capital investments</p>
+                                        <p className="title">Участие в крупнейших выставках</p>
                                     </div>
                                     <p className="bottom">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                    В октябре 2024 года мы приняли участие в международной выставке «Uzbekistan Textile EXPO Autumn 2024», что стало важным шагом к укреплению наших позиций на рынке и расширению деловых связей.
                                     </p>
                                 </div>
                             </div>

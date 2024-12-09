@@ -10,24 +10,24 @@ export default function ContactUs() {
                 </div>
                 <div className="two">
                     <h1 className="top">
-                        Let’s work <br />together
+                    Мы всегда рады <br/>вашим вопросам!
                     </h1>
                     <form action="">
-                        <input type="text" placeholder='Name' />
-                        <input type="email" placeholder='Email address' />
-                        <input type="text" placeholder='Phone number' />
-                        <textarea name="" id="" cols="" rows="5" placeholder='Message'></textarea>
-                        <button className='contact'>Submit</button>
+                        <input type="text" placeholder='Имя' />
+                        <input type="email" placeholder='Mail' />
+                        <input type="text" placeholder='Телефон' />
+                        <textarea name="" id="" cols="" rows="5" placeholder='Почта'></textarea>
+                        <a className='contact' href="https://maps.app.goo.gl/i6uGKFHJbpeTyzXPA">Submit</a>
                     </form>
                     <h1 className="top">
-                        Get in touch
+                    Наши координаты
                     </h1>
-                    <p className="top">Contact with email</p>
+                    <p className="top">Электронная почта</p>
                     <a href="#!" className="email">atlestextile@gmail.com</a>
-                    <p className="title">Let your work speak for itself</p>
+                    <p className="title">Свяжитесь с нами</p>
                     <a href="tel:+998941582000" className="number">+998(94)158-20-00</a>
-                    <p className="bottom">19 Ellenvale Lane, Hotan Gate2, New South<br /> Wales, 3008 New york</p>
-                    <p className="media">Social media</p>
+                    <p className="bottom">ул. Афросиаб,16 100031, <br/>г.Ташкент Узбекистан</p>
+                    <p className="media">Мы в социальных сетях</p>
                     <div className="icon">
                         <div className="i"><i class="fa-brands fa-twitter"></i></div>
                         <div className="i"><i class="fa-brands fa-facebook-f"></i></div>
