@@ -31,6 +31,7 @@ section.why .box p.number{
     font-weight: 700;
     color: #fe9e3f;
     margin-bottom: 0px;
+    margin-top: 20px;
 }
 section.why .box p.title{
     font-size: 25px;

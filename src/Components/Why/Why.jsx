@@ -32,7 +32,7 @@ export default function Why() {
         const tim2 = setInterval(() => {
             const timer2 = setInterval(() => {
                 setCount2((prevCount) => {
-                    if (prevCount < 96) {
+                    if (prevCount < 97) {
                         return prevCount + 1;
                     } else {
                         clearInterval(timer2);
@@ -67,7 +67,7 @@ export default function Why() {
             <div ref={sectionRef} className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <p className="top">//Бизнес-бустWhy us</p>
+                        <p className="top">//Бизнес-буст</p>
                         <h1 className="top">ОБЪЁМ ПРОИЗВОДСТВА И ЭКСПОРТ</h1>
                     </div>
                 </div>
@@ -75,22 +75,22 @@ export default function Why() {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="box">
-                            <p className="number">{count1}%</p>
-                            <p className="title">2500-8000 <br/> единиц в день</p>
+                            <p className="number">2500-8000</p>
+                            <p className="title"> единиц в день</p>
                             <p className="bottom">Разнообразие продукции и производственные объемы</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="box">
-                            <p className="number">{count2}%</p>
-                            <p className="title">98,7% Экспортная направленность</p>
+                            <p className="number">98,7%</p>
+                            <p className="title"> Экспортная направленность</p>
                             <p className="bottom">Мы обеспечиваем международные поставки и стремимся расширять географию наших клиентов, предлагая конкурентоспособную продукцию</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="box">
-                            <p className="number">{count3}%</p>
-                            <p className="title">2 миллиарда сум Ежемесячный объем производства</p>
+                            <p className="number">2 миллиарда </p>
+                            <p className="title">сум Ежемесячный объем производства</p>
                             <p className="bottom">Это подтверждает высокий уровень <br/>нашей производственной мощности и стабильность финансовых показателей</p>
                         </div>
                     </div>

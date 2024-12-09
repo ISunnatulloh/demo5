@@ -81,21 +81,12 @@ export default function Footer() {
                     <div className="col-auto">
                         <p className="menu">Адрес</p>
                         <p className="adres">
-                            ул. Афросиаб,16 100031,
-                        </p>
-                        <p className="adres">г.Ташкент Узбекистан</p>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-12">
-                        <p className="last-left">
-                            Copyright © 2024 <span>ThemetechMount.</span> All rights reserved. Powered by <span> Preyan Technosys Pvt. Ltd.</span>
-                        </p>
-                        <p className="last-right">
-                            Term & condition / Privacy policy / Support
+                            ул. Афросиаб,16 100031, <br/>
+                            г.Ташкент Узбекистан
                         </p>
                     </div>
                 </div>
+
             </div>
         </footer>
     )
