@@ -24,13 +24,20 @@
     background: #efeeee;
 }
 
-.contactus .box .two h1.top {
+.contactus .box .two a.top {
     color: #060616;
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 0px;
+    text-decoration: none;
+    transition: all 0.4s;
 }
-
+.contactus .box .two a.top:hover{
+    color: #fe9e3f;
+}
+.contactus .box .two a.top svg{
+    font-size: 3.5rem ;
+}
 .contactus .box .two form {
     display: grid;
     padding-top: 20px;
@@ -134,10 +141,11 @@
     margin-bottom: 18px;
     display: block;
 }
-.contactus .box .two p.bottom{
+.contactus .box .two a.bottom{
     color: #060616;
     font-size: 18px;
     margin-bottom: 0px;
+    text-decoration: none;
 }
 .contactus .box .two p.media{
     color: #060616;
