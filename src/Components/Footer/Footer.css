@@ -150,7 +150,7 @@ footer ul li a:hover{
 
 
 
-footer  button.bottom{
+footer  a.bottom{
     display: flex;
     position: relative;
     align-items: center;
@@ -166,15 +166,16 @@ footer  button.bottom{
     z-index: 11;
     transition: .3s;
     width: 100%;
+    text-decoration: none;
 }
 
-footer button.bottom:hover{
+footer a.bottom:hover{
     border: 1px solid #fe9e3f;
     cursor: pointer;
     transition: .3s;
 }
 
-footer button.bottom::before{
+footer a.bottom::before{
     content: '';
     background: #fe9e3f !important;
     width: 100%;
@@ -186,12 +187,12 @@ footer button.bottom::before{
     z-index: -1;
 }
 
-footer button.bottom:hover::before{
+footer a.bottom:hover::before{
     cursor: pointer;
     transition: .8s;
     right: 0px;
 }
-footer  button.bottom svg{
+footer  a.bottom svg{
     padding: 2px;
     border-radius: 50%;
     color: white;

@@ -41,18 +41,17 @@ export default function Footer() {
                                 <a href="#!">Instagram</a>
                             </li>
                             <li>
-                                <a href="#!">Twitter</a>
+                                <a href="#!">WhatsApp</a>
                             </li>
                             <li>
-                                <a href="#!">Dribble</a>
+                                <a href="#!">Telegram</a>
                             </li>
                         </ul>
                     </div>
                     <div className="col-auto">
                         <p className="menu">Контакты</p>
-                        <button className="bottom">Отправит сообщение <MailOutlineIcon /> </button>
+                        <a href={"mailto:atlestextile@gmail.com"} className="bottom">Отправит сообщение <MailOutlineIcon /> </a>
                         <div className="text-top">
-                            <a href='#!' className="email">atlestextile@gmail.com</a>
                             <a href="tel:+998940287200" className="number">+998(94)028-72-00</a>
                             <a href="tel:+998941387200" className="number">+998(94)138-72-00</a>
                             <a href="tel:+998941582000" className="number">+998(94)158-20-00</a>
