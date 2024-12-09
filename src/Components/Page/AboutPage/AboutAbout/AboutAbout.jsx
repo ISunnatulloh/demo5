@@ -8,11 +8,10 @@ export default function AboutAbout() {
         <div className="row">
           <div className="col-lg-12">
             <p className="top">
-                //About us
+                //о нас
             </p>
             <h1 className="top">
-              An ultimate textile brand in <br />
-              market since 1970
+            ПРОФЕССИОНАЛИЗМ, КАЧЕСТВО И ИННОВАЦИИ
             </h1>
           </div>
           <div className="col-lg-4">

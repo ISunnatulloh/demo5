@@ -10,10 +10,10 @@ export default function Our() {
             <div className="row">
                 <div className="col-lg-12">
                     <p className="top">
-                        //Our approach
+                        //Преимущества
                     </p>
                     <h1 className="top">
-                    Together,<img src={hand} alt="" />  empowered by our<br/> very own <img src={foto} alt="" /> brand dials <br/>process we deliver <img src={foto1} alt="" />
+                     ЗОЛОТЫЕ <img src={hand} alt="" /> ПРАВИЛА <br/> НАШЕГО <img src={foto} alt="" /> УСПЕХА <img src={foto1} alt="" />
                     </h1>
                 </div>
             </div>

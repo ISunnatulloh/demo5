@@ -155,11 +155,12 @@ section.services .title .box svg {
 
 @media(max-width:767px){
     section.services .title .box p.one{
-        font-size: 25px;
+        font-size: 20px;
     }
     section.services .title .box svg{
-        font-size: 35px;
+        font-size: 30px;
     }
+
 }
 
 @media(max-width:575px){

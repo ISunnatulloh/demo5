@@ -9,7 +9,7 @@ header .header-title {
 }
 
 header .header-title h1.top {
-    font-size: 140px;
+    font-size: 100px;
     color: white;
     margin-bottom: 0px;
     padding-top: 160px;
@@ -17,7 +17,7 @@ header .header-title h1.top {
 }
 
 header .header-title h1.top img {
-    width: 320px;
+    width: 300px;
     border-radius: 50px;
 }
 
@@ -33,7 +33,7 @@ header .header-title .box-bottom a {
     text-align: center;
     background: #fe9e3f;
     border-radius: 50%;
-    padding: 30px 40px;
+    padding: 25px 20px;
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -92,7 +92,7 @@ header .header-title .corusel {
     }
     
     header .header-title .box-bottom a{
-        padding: 20px 30px;
+        padding: 25px 20px;
     }
     header .header-title .corusel{
         padding-bottom: 30px;
@@ -100,7 +100,7 @@ header .header-title .corusel {
 }
 @media(max-width:575px){
     header .header-title h1.top{
-        font-size: 40px;
+        font-size: 35px;
     }
     header .header-title h1.top img{
         width: 100px;

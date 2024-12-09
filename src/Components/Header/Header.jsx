@@ -22,12 +22,12 @@ export default function Header() {
           <div className="row">
             <div className="col-lg-12">
               <h1 className="top">
-                Quality is <img src={foto} alt="" /> <br />
-                our first priority
+               ДОБРО <img src={foto} alt="" /> <br />
+               ПОЖАЛОВАТЬ В <br/>МИР ТЕКСТИЛЯ!
               </h1>
               <div className="box-bottom">
-                <a href="#!"><NorthEastIcon /> Explore <br /> more</a>
-                <p className="bottom">We are delivering next-generation textile production processes that will be radically efficient & sustainable manufacturer. Fablio weavers of designer of furnishing fabrics is a textile manufacturer. Fabrics are designed & woven at our own weaving mill & home textile sector’s.</p>
+                <a href="#!"><NorthEastIcon />Создаём <br /> вдохновляем</a>
+                <p className="bottom">Вдохновляйтесь качественными трикотажными изделиями, созданными с любовью и мастерством. Мы — команда, которая превращает ткани в шедевры, чтобы каждая деталь вашей жизни была красивой и комфортной.</p>
               </div>
 
               <div className="corusel">

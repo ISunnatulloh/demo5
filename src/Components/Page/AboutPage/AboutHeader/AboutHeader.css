@@ -64,14 +64,21 @@ grid-gap: 5px;
         font-size: 60px;
     }
 }
-
+@media(max-width:767px){
+    .aboutheader h1.top{
+        font-size: 55px;
+    }
+    .aboutheader .box .text a.number{
+        font-size: 35px;
+    }
+}
 @media(max-width:575px){
     .aboutheader{
         padding-top: 100px;
         padding-bottom: 50px;
     }
     .aboutheader h1.top{
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         padding-bottom: 10px;
     }
