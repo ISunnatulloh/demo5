@@ -11,17 +11,17 @@ export default function Services() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <p className="top">//services</p>
-            <h1 className="top">Our creative services</h1>
+            <p className="top">//Тканевый стиль</p>
+            <h1 className="top">Открой для себя, как текстиль может изменить стиль!</h1>
           </div>
         </div>
       </div>
       <div className="title">
         <div className="box">
-          <p className="one">01 - Dyeing and <br />printing</p>
+          <p className="one">01 - Современные <br/>технологии</p>
           <div className="bottom">
             <p className="two">
-              Fablio is the largest industries peer-to<br />peer comparison initiative in the textile <br />industry. It tracks the apparel material<br /> and home textile sector’s progress.
+            Передовое оборудование и <br/>инновационные методы производства.
             </p>
             <NorthEastIcon />
           </div>
@@ -30,10 +30,10 @@ export default function Services() {
           </div>
         </div>
         <div className="box">
-          <p className="one">02 - Finishing <br/>treatments</p>
+          <p className="one">02 - Широкий <br/>ассортимент</p>
           <div className="bottom">
             <p className="two">
-              Fablio is the largest industries peer-to<br />peer comparison initiative in the textile <br />industry. It tracks the apparel material<br /> and home textile sector’s progress.
+            От повседневной одежды <br/>до эксклюзивных коллекций.
             </p>
             <NorthEastIcon />
           </div>
@@ -42,10 +42,10 @@ export default function Services() {
           </div>
         </div>
         <div className="box">
-          <p className="one">03 - Fabric<br/> production</p>
+          <p className="one">03 - Безупречное <br/>качество</p>
           <div className="bottom">
             <p className="two">
-              Fablio is the largest industries peer-to<br />peer comparison initiative in the textile <br />industry. It tracks the apparel material<br /> and home textile sector’s progress.
+            Только лучшие материалы и<br/> тщательный контроль на каждом этапе.
             </p>
             <NorthEastIcon />
           </div>
@@ -54,10 +54,10 @@ export default function Services() {
           </div>
         </div>
         <div className="box">
-          <p className="one">04 - Stitching <br/>Fab</p>
+          <p className="one">04 - Индивидуальный <br/>подход</p>
           <div className="bottom">
             <p className="two">
-              Fablio is the largest industries peer-to<br />peer comparison initiative in the textile <br />industry. It tracks the apparel material<br /> and home textile sector’s progress.
+            Учёт потребностей каждого клиента<br/> и персонализированные решения для <br/>создания уникальной продукции.
             </p>
             <NorthEastIcon />
           </div>

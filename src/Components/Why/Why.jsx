@@ -67,8 +67,8 @@ export default function Why() {
             <div ref={sectionRef} className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <p className="top">//Why us</p>
-                        <h1 className="top">Why choose us</h1>
+                        <p className="top">//Бизнес-бустWhy us</p>
+                        <h1 className="top">ОБЪЁМ ПРОИЗВОДСТВА И ЭКСПОРТ</h1>
                     </div>
                 </div>
 
@@ -76,22 +76,22 @@ export default function Why() {
                     <div className="col-lg-4">
                         <div className="box">
                             <p className="number">{count1}%</p>
-                            <p className="title">Strategy</p>
-                            <p className="bottom">Impact the success of a textile business. It also implies adaptability to the evolving landscape of the industry and a commitment to long-term success through strategic planning and execution</p>
+                            <p className="title">2500-8000 <br/> единиц в день</p>
+                            <p className="bottom">Разнообразие продукции и производственные объемы</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="box">
                             <p className="number">{count2}%</p>
-                            <p className="title">Trust us</p>
-                            <p className="bottom">Focus on building and maintaining strong relationships with level, understand client's needs an adapting the strategies accordingly. social responsibility goals, response to growing textile market</p>
+                            <p className="title">98,7% Экспортная направленность</p>
+                            <p className="bottom">Мы обеспечиваем международные поставки и стремимся расширять географию наших клиентов, предлагая конкурентоспособную продукцию</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="box">
                             <p className="number">{count3}%</p>
-                            <p className="title">Positive feedbacks</p>
-                            <p className="bottom">Clients may provide feedback on the quality of the textiles received. This could include considerations like durability, a color fastness, texture & adherence to specifications to positive client experience</p>
+                            <p className="title">2 миллиарда сум Ежемесячный объем производства</p>
+                            <p className="bottom">Это подтверждает высокий уровень <br/>нашей производственной мощности и стабильность финансовых показателей</p>
                         </div>
                     </div>
                 </div>

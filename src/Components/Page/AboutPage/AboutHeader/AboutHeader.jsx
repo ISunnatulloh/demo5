@@ -8,13 +8,13 @@ export default function AboutHeader() {
           <div className="row">
             <div className="col-lg-12">
               <h1 className="top">
-              Welcome to<br/> Fablio market!
+              МЫ СТРЕМИМСЯ К <br/>УСПЕХУ В МИРЕ ТЕКСТИЛЯ!
               </h1>
               <div className="box">
                 <img src={foto} alt="" />
                 <div className="text">
-                  <p className="top">Get in touch with our team</p>
-                  <a className='number' href="#!">+0 (145) 967 8037</a>
+                  <p className="top">О нашей компании</p>
+                  <a className='number' href="tel:+998941582000">+998 (94) 158-20-00</a>
                 </div>
               </div>
             </div>

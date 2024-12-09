@@ -23,9 +23,9 @@ export default function ContactUs() {
                         Get in touch
                     </h1>
                     <p className="top">Contact with email</p>
-                    <a href="#!" className="email">support@example.com</a>
+                    <a href="#!" className="email">atlestextile@gmail.com</a>
                     <p className="title">Let your work speak for itself</p>
-                    <a href="#!" className="number">+0(145) 967 8037</a>
+                    <a href="tel:+998941582000" className="number">+998(94)158-20-00</a>
                     <p className="bottom">19 Ellenvale Lane, Hotan Gate2, New South<br /> Wales, 3008 New york</p>
                     <p className="media">Social media</p>
                     <div className="icon">

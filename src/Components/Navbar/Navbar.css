@@ -67,14 +67,8 @@
     color: white;
 }
 
-.nav-title .col-lg-12 .box .box-right .text,
-.nav-title .col-lg-12 .null .box-right .text {
-    display: grid;
-}
 
-.nav-title .col-lg-12 .box .box-right .text a.email:hover,
 .nav-title .col-lg-12 .box .box-right .text a.number:hover,
-.nav-title .col-lg-12 .null .box-right .text a.email:hover,
 .nav-title .col-lg-12 .null .box-right .text a.number:hover {
     cursor: pointer;
     transition: .3s;
@@ -82,10 +76,8 @@
 }
 
 .nav-title .col-lg-12 .box .box-right .text a.number,
-.nav-title .col-lg-12 .box .box-right .text a.email,
-.nav-title .col-lg-12 .null .box-right .text a.number,
-.nav-title .col-lg-12 .null .box-right .text a.email {
-    font-size: 16px;
+.nav-title .col-lg-12 .null .box-right .text a.number{
+    font-size: 18px;
     color: white;
     text-decoration: none;
     transition: .3s;

@@ -27,28 +27,29 @@ section.our h1.top img{
 
 @media(max-width:991px){
     section.our h1.top{
-        font-size: 45px;
+        font-size: 40px;
     }
     section.our h1.top img:nth-child(1){
         width: 60px;
     }
     section.our h1.top img:nth-child(3),
-    section.our h1.top img:nth-child(5){
+    section.our h1.top img:nth-child(4){
         width: 150px;
     }
 }
 
 @media(max-width:767px){
     section.our h1.top{
-        font-size: 35px;
+        font-size: 30px;
     }
     section.our h1.top img:nth-child(1){
         width: 50px;
     }
     section.our h1.top img:nth-child(3),
-    section.our h1.top img:nth-child(5){
-        width: 130px;
+    section.our h1.top img:nth-child(4){
+        width: 110px;
     }
+    
 }
 
 @media(max-width:575px){
@@ -59,13 +60,13 @@ section.our h1.top img{
         font-size: 15px;
     }
     section.our h1.top{
-        font-size: 18px;
+        font-size: 25px;
     }
     section.our h1.top img:nth-child(1){
         width: 30px;
     }
     section.our h1.top img:nth-child(3),
-    section.our h1.top img:nth-child(5){
+    section.our h1.top img:nth-child(4){
         width: 80px;
     }
     section.our p.top{

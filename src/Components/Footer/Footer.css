@@ -148,53 +148,64 @@ footer ul li a:hover{
     color: #fe9e3f;
 }
 
-footer form{
+
+
+footer  button.bottom{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 5px;
-    border-bottom: 1px solid rgba(255, 255, 255, .25);
-}
-footer form input{
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    color: #ffffff99;
-}
-footer form input::placeholder{
-    color: #ffffff99;
-}
-footer form button.bottom svg{
-    color: white;
-}
-footer form button.bottom{
-    background: transparent;
-    border: none;
-    color: white;
-    font-size: 15px;
-    display: flex;
+    position: relative;
     align-items: center;
     grid-gap: 5px;
-}
-footer form button.bottom svg{
+    background: transparent;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    border-radius: 30px;
     font-size: 15px;
+    padding: 10px;
+    overflow: hidden;
+    z-index: 11;
+    transition: .3s;
+    width: 100%;
+}
+
+footer button.bottom:hover{
+    border: 1px solid #fe9e3f;
+    cursor: pointer;
     transition: .3s;
 }
 
-footer form button.bottom:hover svg{
+footer button.bottom::before{
+    content: '';
+    background: #fe9e3f !important;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: -100%;
+    transition: .8s;
+    z-index: -1;
+}
+
+footer button.bottom:hover::before{
     cursor: pointer;
-    transition: .3s;
-    transform: rotate(45deg);
+    transition: .8s;
+    right: 0px;
+}
+footer  button.bottom svg{
+    padding: 2px;
+    border-radius: 50%;
+    color: white;
+    background: #fe9e3f;
+    font-size: 20px;
 }
 
 footer .text-top{
 display: grid;
-padding-top: 25px;
+padding-top: 15px;
 grid-gap: 5px;
 }
 footer .text-top a.email{
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
     transition: .3s;
@@ -207,7 +218,7 @@ footer .text-top a.number:hover{
 }
 
 footer .text-top a.number{
-    font-size: 22px;
+    font-size: 18px;
     color: #ffffffb3;
     text-decoration: none;
     transition: .3s;
@@ -240,7 +251,18 @@ footer .box-bottom .box img{
     height: 85px;
     width: 120px;
 }
-
+footer p.adres:hover{
+    cursor: pointer;
+    transition: .3s;
+    color: #fe9e3f;
+}
+footer p.adres{
+    font-size: 20px;
+    color: #969699;
+    transition: .3s;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
 footer .row:nth-child(3){
     padding-bottom: 10px;
 }
@@ -258,7 +280,16 @@ footer p.last-right{
     color: white;
     margin-bottom: 0px; 
 }
-@media (max-width: 991px){
+
+@media(max-width:1199px){
+    footer h1.top{
+        display: unset;
+    }
+    footer button.right{
+        padding: 10px 15px;
+    }
+}
+@media(max-width: 991px){
     footer .box-bottom .box .text a.right{
         font-size: 16px;
     }
@@ -275,6 +306,12 @@ footer p.last-right{
  
     footer p.menu {
         text-align: unset;
+    }
+    footer button.right{
+        padding: 8px 22px 8px 15px;
+    }
+    footer button.bottom{
+        justify-content: center;
     }
 }
 @media (max-width: 767px){

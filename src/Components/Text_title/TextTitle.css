@@ -15,7 +15,6 @@ section.textile .row{
 }
 section.textile h1{
     font-size: 50px;
-    /* line-height: 74px; */
     font-weight: 600;
     color: #060616;
     padding-top: 10px;
@@ -33,15 +32,16 @@ section.textile .bigcard .cardin{
 section.textile .bigcard .cardin h3{
     padding-top: 10px;
     font-size: 25px;
-    /* line-height: 42px; */
     font-weight: 500;
     color: black;
 }
 section.textile .bigcard .cardin p.text{
     font-size: 17px;
-    /* line-height: 30px; */
     color: black;
     opacity: 0.8;
+}
+section.textile .col-lg-6{
+    height: 100% !important;
 }
 section.textile img {
     border-radius: 25px;

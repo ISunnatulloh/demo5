@@ -1,7 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../../Assisstest/img/logo.svg'
-import AttachEmailIcon from '@mui/icons-material/AttachEmail';
 import NorthEastIcon from '@mui/icons-material/NorthEast';
 import { Link } from 'react-router-dom';
 import CommentIcon from '@mui/icons-material/Comment';
@@ -14,27 +12,27 @@ export default function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <h1 className="top">Have an amazing layout?Let’s talk <CommentIcon /></h1>
-                        <button className="right">Contact us <NorthEastIcon /></button>
+                        <h1 className="top">Пишите, Задавайте Вопросы, Делитесь Идеями!<CommentIcon /></h1>
+                        <button className="right">Контакты <NorthEastIcon /></button>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-auto">
-                        <p className="menu">Quicks links</p>
+                        <p className="menu">Страницы</p>
                         <ul>
                             <li>
-                                <Link to='/'>Home</Link>
+                                <Link to='/'>Главная</Link>
                             </li>
                             <li>
-                                <Link to='/about'>About</Link>
+                                <Link to='/about'>О нас</Link>
                             </li>
                             <li>
-                                <Link to='/contact'>Contact us</Link>
+                                <Link to='/contact'>Контакты</Link>
                             </li>
                         </ul>
                     </div>
                     <div className="col-auto">
-                        <p className="menu">Social info</p>
+                        <p className="menu">Интернет ресурсы</p>
                         <ul>
                             <li>
                                 <a href="#!">Facebook</a>
@@ -51,18 +49,17 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="col-auto">
-                        <p className="menu">Sign up here for regular updates</p>
-                        <form action="">
-                            <MailOutlineIcon />
-                            <input type="text" placeholder='Your email' />
-                            <button className="bottom">Send now <NorthEastIcon /></button>
-                        </form>
+                        <p className="menu">Контакты</p>
+                        <button className="bottom">Отправит сообщение <MailOutlineIcon /> </button>
                         <div className="text-top">
-                            <a href='#!' className="email">support12@gmail.com</a>
-                            <a href="#!" className="number">+123 456 7890 12</a>
+                            <a href='#!' className="email">atlestextile@gmail.com</a>
+                            <a href="tel:+998940287200" className="number">+998(94)028-72-00</a>
+                            <a href="tel:+998941387200" className="number">+998(94)138-72-00</a>
+                            <a href="tel:+998941582000" className="number">+998(94)158-20-00</a>
+                            <a href="tel:+998951204111" className="number">+998(95)120-41-11</a>
                         </div>
                     </div>
-                    <div className="col-auto">
+                    {/* <div className="col-auto">
                         <p className="menu">Popular updates</p>
                         <div className="box-bottom">
                             <div className="box">
@@ -80,6 +77,13 @@ export default function Footer() {
                                 </div>
                             </div>
                         </div>
+                    </div> */}
+                    <div className="col-auto">
+                        <p className="menu">Адрес</p>
+                        <p className="adres">
+                            ул. Афросиаб,16 100031,
+                        </p>
+                        <p className="adres">г.Ташкент Узбекистан</p>
                     </div>
                 </div>
                 <div className="row">
@@ -88,7 +92,7 @@ export default function Footer() {
                             Copyright © 2024 <span>ThemetechMount.</span> All rights reserved. Powered by <span> Preyan Technosys Pvt. Ltd.</span>
                         </p>
                         <p className="last-right">
-                        Term & condition / Privacy policy / Support
+                            Term & condition / Privacy policy / Support
                         </p>
                     </div>
                 </div>
