@@ -30,10 +30,10 @@ export default function ContactUs() {
                     <a href={"https://maps.app.goo.gl/i6uGKFHJbpeTyzXPA"} className="bottom">ул. Афросиаб,16 100031, <br/>г.Ташкент Узбекистан</a>
                     <p className="media">Мы в социальных сетях</p>
                     <div className="icon">
-                        <div className="i"><i class="fa-brands fa-twitter"></i></div>
-                        <div className="i"><i class="fa-brands fa-facebook-f"></i></div>
-                        <div className="i"><i class="fa-brands fa-linkedin-in"></i></div>
-                        <div className="i"><i class="fa-brands fa-instagram"></i></div>
+                        <div className="i"><i className="fa-brands fa-facebook-f"></i></div>
+                        <div className="i"><i className="fa-brands fa-instagram"></i></div>
+                        <div className="i"><i className="fa-brands fa-telegram"></i></div>
+                        <div className="i"><i className="fa-brands fa-whatsapp"></i></div>
                     </div>
                 </div>
             </div>

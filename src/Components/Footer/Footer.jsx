@@ -1,19 +1,21 @@
 import React from 'react'
 import './Footer.css'
 import NorthEastIcon from '@mui/icons-material/NorthEast';
-import { Link } from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import CommentIcon from '@mui/icons-material/Comment';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import foto1 from '../../Assisstest/img/footer1.jpg'
 import foto2 from '../../Assisstest/img/footer2.jpg'
 export default function Footer() {
+    const navigate = useNavigate();
+
     return (
         <footer>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <h1 className="top">Пишите, Задавайте Вопросы, Делитесь Идеями!<CommentIcon /></h1>
-                        <button className="right">Контакты <NorthEastIcon /></button>
+                        <button className="right" onClick={()=>navigate("/contact")}>Контакты <NorthEastIcon /></button>
                     </div>
                 </div>
                 <div className="row">

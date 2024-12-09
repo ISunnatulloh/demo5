@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../Assisstest/img/logo.png'
-import AttachEmailIcon from '@mui/icons-material/AttachEmail';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import NorthEastIcon from '@mui/icons-material/NorthEast';
-import { Link } from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 export default function Navbar() {
     const [show, setShow] = useState(false)
-
+    const navigate = useNavigate();
     return (
         <div className="nav-title">
             <div className="container">
@@ -27,11 +27,11 @@ export default function Navbar() {
                             </ul>
 
                             <div className="box-right">
-                                <AttachEmailIcon />
+                                <LocalPhoneIcon />
                                 <div className="text">
                                     <a href="tel:+998941582000" className="number">+998 (94) 158-20-00</a>                                </div>
                             </div>
-                            <button className='right'>Cвяжитесь <NorthEastIcon /> </button>
+                            <button className='right' onClick={()=>navigate("/contact")}>Cвяжитесь <NorthEastIcon /> </button>
                         </div>
                         <i onClick={() => setShow(!show)} className="bars fa-solid fa-bars"></i>
                     </div>
