@@ -84,23 +84,23 @@
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 12px 0px;
-    border: none;
     text-align: center;
     text-decoration: none;
-    background: transparent;
-    border: 1px solid #c2c2c2;
     font-size: 15px;
-    color: #686e73;
+    color: white;
     border-radius: 25px;
     transition: .3s;
+    border: 1px solid #fe9e3f;
+    background: #fe9e3f;
 }
 
 .contactus .box .two form a.contact:hover {
     cursor: pointer;
     transition: .3s;
-    background: #fe9e3f;
-    color: white;
-    border: 1px solid #fe9e3f;
+    background: transparent;
+
+    color: #686e73;
+    border: 1px solid #c2c2c2;
 }
 
 .contactus .box .two p.top {
