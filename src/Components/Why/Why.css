@@ -185,5 +185,6 @@ section.why .corusel .swiper-wrapper{
     }
     section.why .box p.number{
         font-size: 25px;
+        margin-top: 0px;
     }
 }

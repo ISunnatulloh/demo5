@@ -32,12 +32,15 @@
     text-decoration: none;
     transition: all 0.4s;
 }
-.contactus .box .two a.top:hover{
+
+.contactus .box .two a.top:hover {
     color: #fe9e3f;
 }
-.contactus .box .two a.top svg{
-    font-size: 3.5rem ;
+
+.contactus .box .two a.top svg {
+    font-size: 3.5rem;
 }
+
 .contactus .box .two form {
     display: grid;
     padding-top: 20px;
@@ -50,7 +53,7 @@
     border-bottom: 1px solid #fe9e3f;
 }
 
-.contactus .box .two form input::placeholder{
+.contactus .box .two form input::placeholder {
     color: #686e73;
 }
 
@@ -77,9 +80,11 @@
     color: #686e73;
     background: transparent;
 }
-.contactus .box .two form textarea::placeholder{
+
+.contactus .box .two form textarea::placeholder {
     color: #686e73;
 }
+
 .contactus .box .two form a.contact {
     margin-top: 20px;
     margin-bottom: 40px;
@@ -141,13 +146,15 @@
     margin-bottom: 18px;
     display: block;
 }
-.contactus .box .two a.bottom{
+
+.contactus .box .two a.bottom {
     color: #060616;
     font-size: 18px;
     margin-bottom: 0px;
     text-decoration: none;
 }
-.contactus .box .two p.media{
+
+.contactus .box .two p.media {
     color: #060616;
     font-size: 40px;
     font-weight: 600;
@@ -155,12 +162,14 @@
     padding-top: 20px;
     padding-bottom: 10px;
 }
-.contactus .box .two .icon{
+
+.contactus .box .two .icon {
     display: flex;
     align-items: center;
     grid-gap: 20px;
 }
-.contactus .box .two .icon .i{
+
+.contactus .box .two .icon .i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,8 +178,9 @@
     width: 50px;
     height: 50px;
 }
-.contactus .box .two .icon .i i.fa-brands{
-    width: 40px;   
+
+.contactus .box .two .icon .i i.fa-brands {
+    width: 40px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -181,60 +191,96 @@
     font-size: 18px;
     color: #060616;
 }
-.contactus .box .two .icon .i i.fa-brands:hover{
+
+.contactus .box .two .icon .i i.fa-brands:hover {
     cursor: pointer;
     width: 35px;
     height: 35px;
     transition: .1s;
 }
 
+.contactus iframe {
+    width: 100%;
+}
 
-
-@media(max-width:991px){
-    .contactus{
+@media(max-width:991px) {
+    .contactus {
         padding-top: 65px;
     }
-    .contactus .box{
+
+    .contactus .box {
         flex-direction: column;
     }
+
     .contactus .box .one,
-    .contactus .box .two{
+    .contactus .box .two {
         width: 100%;
+    }
+
+}
+
+@media(max-width:767px) {
+    .contactus .box .two {
+        padding: 30px;
+    }
+
+    .contactus .box .two a.top {
+        display: flex;
+        align-items: center;
+        font-size: 40px;
     }
 }
 
-@media(max-width:575px){
-    .contactus .box .two{
+@media(max-width:575px) {
+    .contactus .box .two {
         padding: 30px;
     }
+
     .contactus .box .two h1.top,
-    .contactus .box .two p.media{
-        font-size: 28px;
+    .contactus .box .two p.media {
+        font-size: 25px;
     }
-    .contactus .box .two p.media{
+
+    .contactus .box .two p.media {
         padding: 10px 0px;
     }
-    .contactus .box .two form input{
+
+    .contactus .box .two form input {
         padding: 10px 0px;
     }
+
     .contactus .box .two p.top,
     .contactus .box .two p.title,
-    .contactus .box .two p.bottom{
+    .contactus .box .two p.bottom {
         font-size: 16px;
     }
+
     .contactus .box .two a.email,
-    .contactus .box .two a.number{
+    .contactus .box .two a.number {
         font-size: 20px;
     }
-    .contactus .box .two p.title{
+
+    .contactus .box .two p.title {
         padding-top: 3px;
     }
-    .contactus .box .two a.number{
+
+    .contactus .box .two a.number {
         margin-bottom: 15px;
         padding-bottom: 15px;
     }
-    .contactus .box .two form a.contact{
+
+    .contactus .box .two form a.contact {
         margin-top: 0px;
         margin-bottom: 20px;
+    }
+
+    .contactus .box .two a.top {
+        font-size: 25px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .contactus .box .two a.top svg {
+        font-size: 25px;
     }
 }
