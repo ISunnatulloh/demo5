@@ -128,6 +128,7 @@
     right: -150px;
     transition: .8s;
     z-index: -1;
+    border-radius: 30px;
 }
 
 .nav-title .col-lg-12 .box button.right:hover::before,
@@ -144,7 +145,7 @@
 }
 
 .bars {
-    color: #fe9e3f;
+    color: white;
     font-size: 20px;
     display: none;
 }
@@ -170,6 +171,7 @@
         border-bottom: 2px solid #fe9e3f;
         transition: 1s;
         backdrop-filter:  blur(20px);
+        background: rgba(6, 6, 22, .8);
     }
 
     .nav-title .col-lg-12 .box {

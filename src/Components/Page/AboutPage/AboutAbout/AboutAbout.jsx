@@ -77,7 +77,7 @@ export default function AboutAbout() {
                   />
                 </Image.PreviewGroup>
               </div>
-              <p className="number">713 000$</p>
+              <p className="number">$</p>
               <p className="title">НАШИ ДОСТИЖЕНИЯ</p>
               <p className="bottom">Мы гордимся тем, что успешно сотрудничаем с ведущими странами, такими как Российская Федерация и Республика Беларусь, поставляя высококачественные текстильные изделия.</p>
             </div>

@@ -9,7 +9,7 @@ export default function AboutOur() {
                 <div className="row">
                     <div className="col-lg-12">
                         <p className="top">//ваш текстильный партнёр</p>
-                        <h1 className="top">Мы – ваш надежный партнер в мире текстиля!</h1>
+                        <h1 className="top">Мы – ваш надежный партнер !</h1>
                         <div className="right-box">
                             <div className="one">
                                 <img src={foto} alt="" />

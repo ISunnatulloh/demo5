@@ -67,7 +67,7 @@ export default function Why() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <p className="top">//Бизнес-бустWhy us</p>
+                        {/* <p className="top">//Бизнес-бустWhy us</p> */}
                         <h1 className="top">ОБЪЁМ ПРОИЗВОДСТВА И ЭКСПОРТ</h1>
                     </div>
                 </div>

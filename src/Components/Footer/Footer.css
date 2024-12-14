@@ -100,6 +100,7 @@ footer button.right::before {
     right: -100%;
     transition: .8s;
     z-index: -1;
+    border-radius: 30px;
 }
 
 footer button.right:hover::before {
@@ -183,6 +184,7 @@ footer a.bottom::before{
     right: -100%;
     transition: .8s;
     z-index: -1;
+    border-radius: 30px;
 }
 
 footer a.bottom:hover::before{

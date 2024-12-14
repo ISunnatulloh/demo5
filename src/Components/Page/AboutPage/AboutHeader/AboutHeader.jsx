@@ -8,7 +8,7 @@ export default function AboutHeader() {
           <div className="row">
             <div className="col-lg-12">
               <h1 className="top">
-              МЫ СТРЕМИМСЯ К <br/>УСПЕХУ В МИРЕ ТЕКСТИЛЯ!
+              МЫ СТРЕМИМСЯ К <br/>УСПЕХУ В МИРЕ одежды!
               </h1>
               <div className="box">
                 <img src={foto} alt="" />

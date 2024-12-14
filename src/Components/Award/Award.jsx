@@ -1,6 +1,10 @@
 import React from 'react'
 import './Award.css'
-import star from '../../Assisstest/img/star1.png'
+// import star from '../../Assisstest/img/star1.png'
+import WorkspacePremiumOutlinedIcon from '@mui/icons-material/WorkspacePremiumOutlined';
+import BoltIcon from '@mui/icons-material/Bolt';
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
 export default function Award() {
     return (
         <section className='award'>
@@ -12,25 +16,25 @@ export default function Award() {
                     </div>
                     <div className="col-lg-3">
                         <div className="box">
-                            <img src={star} alt="" />
+                            <WorkspacePremiumOutlinedIcon/>
                             <p className="bottom">Качество гарантировано</p>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="box">
-                            <img src={star} alt="" />
+                            <BoltIcon/>
                             <p className="bottom">Скорость выполнения</p>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="box">
-                            <img src={star} alt="" />
+                            <PersonOutlineIcon/>
                             <p className="bottom">Индивидуальный подход</p>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="box">
-                            <img src={star} alt="" />
+                            <DeveloperBoardIcon/>
                             <p className="bottom">Современные технологии</p>
                         </div>
                     </div>

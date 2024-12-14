@@ -33,7 +33,7 @@ section.award .box:hover {
     border: 1.5px solid black;
 }
 
-section.award .box:hover img {
+/* section.award .box:hover img {
     cursor: pointer;
     transition: 1s;
     transform: rotateY(180deg);
@@ -45,7 +45,24 @@ section.award .box img {
     display: flex;
     justify-content: center;
     margin: auto;
+} */
+
+
+section.award .box:hover svg {
+    cursor: pointer;
+    transition: 1s;
+    transform: rotateY(180deg);
 }
+
+section.award .box svg {
+    transition: 1s;
+    transform: rotateY(0deg);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 100px;
+}
+
 
 section.award .box p.bottom {
     font-size: 18px;
