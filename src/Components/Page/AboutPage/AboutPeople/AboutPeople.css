@@ -153,6 +153,9 @@
      }
 }
 @media(max-width:575px){
+    .aboutpeople .box img{
+        height: 400px;
+    }
     .aboutpeople .row .col-lg-3{
         width: 100%;
     }
