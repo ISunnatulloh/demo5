@@ -18,6 +18,8 @@ header .header-title h1.top {
 
 header .header-title h1.top img {
     width: 300px;
+    height: 100px;
+    margin-top: -15px;
     border-radius: 50px;
 }
 
@@ -95,6 +97,7 @@ header p.slide{
     }
     header .header-title h1.top img{
         width: 250px;
+        height: 80px;
     }
 }
 @media(max-width:767px){
@@ -121,6 +124,7 @@ header p.slide{
     }
     header .header-title h1.top img{
         width: 100px;
+        height: unset;
     }
     header .header-title .box-bottom{
         flex-direction: column;

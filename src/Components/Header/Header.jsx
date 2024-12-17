@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import NorthEastIcon from '@mui/icons-material/NorthEast';
-import foto from '../../Assisstest/img/header title.png'
+import foto from '../../Assisstest/img/header title.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import starp from '../../Assisstest/img/starp.png'
 // import morgip from '../../Assisstest/img/margib.png'

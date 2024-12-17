@@ -1,13 +1,13 @@
 import React from 'react'
 import './AboutPeople.css'
-import foto1 from '../../../../Assisstest/img/about poul.jpg'
-import foto2 from '../../../../Assisstest/img/about rossy.jpg'
-import foto3 from '../../../../Assisstest/img/about john.jpg'
-import foto4 from '../../../../Assisstest/img/about jammy.jpg'
-import foto5 from '../../../../Assisstest/img/about elina.jpg'
-import foto6 from '../../../../Assisstest/img/about logan.jpg'
-import foto7 from '../../../../Assisstest/img/about deen.jpg'
-import foto8 from '../../../../Assisstest/img/about flay.jpg'
+import foto1 from '../../../../Assisstest/img/about rasm 1.jpg'
+import foto2 from '../../../../Assisstest/img/about rasm 2.jpg'
+import foto3 from '../../../../Assisstest/img/about rasm 3.jpg'
+import foto4 from '../../../../Assisstest/img/about rasm 4.jpg'
+import foto5 from '../../../../Assisstest/img/about rasm 5.jpg'
+import foto6 from '../../../../Assisstest/img/about rasm 6.jpeg'
+import foto7 from '../../../../Assisstest/img/about rasm 7.jpg'
+import foto8 from '../../../../Assisstest/img/about rasm 8.jpg'
 export default function AboutPeople() {
     // <i class="fa-brands fa-google-plus-g"></i>
     return (
@@ -17,29 +17,16 @@ export default function AboutPeople() {
                     <div className="col-lg-3">
                         <div className="box">
                             <img src={foto1} alt="" />
-                            <p className="name">Jessica Paul</p>
-                            <p className="title">Account manager</p>
-                            <div className="icon">
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
                             <div className="box-hover">
                                 <p className="hover-name">
-                                    Jessica Paul
+                                    Футболка
                                 </p>
-                                <p className="hover-title">
-                                    Account manager
-                                </p>
-                                <div className="icon">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>
                                 <p className="bottom">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit ye to remonr quis ipsum lorem
+                                    Карде супрем- состав: 100% хлопок
+                                    Лайкра- состав: 95% хлопок, 5% лайкра
+                                    Пенье-состав: 92% хлопок, 8% лайкра
+                                    Меланж- состав 75% хлопок, 25% полиэстр
+                                    Расцветок 20
                                 </p>
                             </div>
                         </div>
@@ -47,29 +34,14 @@ export default function AboutPeople() {
                     <div className="col-lg-3">
                         <div className="box">
                             <img src={foto2} alt="" />
-                            <p className="name">Rossy Wincent</p>
-                            <p className="title">Product Designer</p>
-                            <div className="icon">
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
-                                <i class="fa-brands fa-google-plus-g"></i>
-                            </div>
                             <div className="box-hover">
                                 <p className="hover-name">
-                                    Rossy Wincent
+                                    Поло футболка
                                 </p>
-                                <p className="hover-title">
-                                    Product Designer
-                                </p>
-                                <div className="icon">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    <i class="fa-brands fa-google-plus-g"></i>
-                                </div>
                                 <p className="bottom">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit ye to remonr quis ipsum lorem
+                                    Пике<br/>
+                                    Состав 100% хлопок<br/>
+                                    Расцветок 10<br/>
                                 </p>
                             </div>
                         </div>
@@ -77,29 +49,14 @@ export default function AboutPeople() {
                     <div className="col-lg-3">
                         <div className="box">
                             <img src={foto3} alt="" />
-                            <p className="name">John Tyler</p>
-                            <p className="title">Senior Employee</p>
-                            <div className="icon">
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
-                                <i class="fa-brands fa-google-plus-g"></i>
-                            </div>
                             <div className="box-hover">
                                 <p className="hover-name">
-                                    John Tyler
+                                    Майки
                                 </p>
-                                <p className="hover-title">
-                                    Senior Employee
-                                </p>
-                                <div className="icon">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    <i class="fa-brands fa-google-plus-g"></i>
-                                </div>
                                 <p className="bottom">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit ye to remonr quis ipsum lorem
+                                    Карде супрем<br/>
+                                    Состав: 100% хлопок<br/>
+                                    Расцветки 3<br/>
                                 </p>
                             </div>
                         </div>
@@ -107,31 +64,14 @@ export default function AboutPeople() {
                     <div className="col-lg-3">
                         <div className="box">
                             <img src={foto4} alt="" />
-                            <p className="name">
-                                Jammy Pamment
-                            </p>
-                            <p className="title">Employee</p>
-                            <div className="icon">
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-youtube"></i>
-                            </div>
                             <div className="box-hover">
                                 <p className="hover-name">
-                                    Jammy Pamment
+                                    Шорты
                                 </p>
-                                <p className="hover-title">
-                                    Employee
-                                </p>
-                                <div className="icon">
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-instagram"></i>
-                                    <i class="fa-brands fa-youtube"></i>
-                                </div>
                                 <p className="bottom">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit ye to remonr quis ipsum lorem
+                                    Меланж<br/>
+                                    Состав: 55% хлопок, 45%<br/> полиэстр
+                                    Расцветок 10<br/>
                                 </p>
                             </div>
                         </div>
@@ -139,27 +79,14 @@ export default function AboutPeople() {
                     <div className="col-lg-3">
                         <div className="box">
                             <img src={foto5} alt="" />
-                            <p className="name">Elina Shaikh</p>
-                            <p className="title">Account Manager</p>
-                            <div className="icon">
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
                             <div className="box-hover">
                                 <p className="hover-name">
-                                    Elina Shaikh
+                                    Джогеры
                                 </p>
-                                <p className="hover-title">
-                                    Account Manager
-                                </p>
-                                <div className="icon">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>
                                 <p className="bottom">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit ye to remonr quis ipsum lorem
+                                    Меланж<br/>
+                                    Состав: 55% хлопок, 45%<br/> полиэстр
+                                    Расцветок 10<br/>
                                 </p>
                             </div>
                         </div>
@@ -167,31 +94,14 @@ export default function AboutPeople() {
                     <div className="col-lg-3">
                         <div className="box">
                             <img src={foto6} alt="" />
-                            <p className="name">
-                                James Logan
-                            </p>
-                            <p className="title">CEO / Partner</p>
-                            <div className="icon">
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
                             <div className="box-hover">
                                 <p className="hover-name">
-                                    James Logan
+                                    Худи
                                 </p>
-                                <p className="hover-title">
-                                    CEO / Partner
-                                </p>
-                                <div className="icon">
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>
                                 <p className="bottom">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit ye to remonr quis ipsum lorem
+                                    Трёхнитка<br/>
+                                    Состав: 100% хлопок<br/>
+                                    Расцветок 10<br/>
                                 </p>
                             </div>
                         </div>
@@ -199,29 +109,14 @@ export default function AboutPeople() {
                     <div className="col-lg-3">
                         <div className="box">
                             <img src={foto7} alt="" />
-                            <p className="name">Paula deen</p>
-                            <p className="title">Account manager</p>
-                            <div className="icon">
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
                             <div className="box-hover">
                                 <p className="hover-name">
-                                    Paula deen
+                                    Пижама женская
                                 </p>
-                                <p className="hover-title">
-                                    Account manager
-                                </p>
-                                <div className="icon">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>
                                 <p className="bottom">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit ye to remonr quis ipsum lorem
+                                    Карде супрем<br/>
+                                    Состав: 100% хлопок<br/>
+                                    Расцветок 10<br/>
                                 </p>
                             </div>
                         </div>
@@ -229,25 +124,11 @@ export default function AboutPeople() {
                     <div className="col-lg-3">
                         <div className="box">
                             <img src={foto8} alt="" />
-                            <p className="name">Bobby flay</p>
-                            <p className="title">Account manager</p>
-                            <div className="icon">
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
                             <div className="box-hover">
-                                <p className="hover-name">Bobby flay</p>
-                                <p className="hover-title">Account manager</p>
-                                <div className="icon">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    <i class="fa-brands fa-instagram"></i>
-                                </div>
-                                <p className="bottom">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit ye to remonr quis ipsum lorem
+                                <p className="hover-name">Пижама мужская</p>
+                                <p className="bottom">Карде супрем<br/>
+                                    Состав: 100% хлопок<br/>
+                                    Расцветок 10<br/>
                                 </p>
                             </div>
                         </div>

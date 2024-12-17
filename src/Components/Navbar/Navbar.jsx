@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <img src={logo} alt="" />
+                        <Link to='/'><img src={logo} alt="" /></Link>
                         <div className={show ? 'null' : 'box'}>
                             <ul>
                                 <li>

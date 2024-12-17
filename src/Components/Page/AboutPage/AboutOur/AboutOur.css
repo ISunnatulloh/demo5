@@ -16,7 +16,13 @@
     font-size: 50px;
     margin-bottom: 0px;
     color: white;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
+}
+.aboutour p.new{
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #ffffffcc;
+  padding-bottom: 30px;
 }
 .aboutour .right-box{
 display: flex;
@@ -85,6 +91,9 @@ display: flex;
 
 
   @media(max-width:991px){
+    .aboutour p.new{
+      font-size: 16px;
+    }
     .aboutour{
       padding: 50px 0px;
     }
@@ -107,8 +116,12 @@ display: flex;
     .aboutour h1.top{
       text-align: center;
     }
+    .aboutour p.new{
+      text-align: center;
+      font-size: 15px;
+    }
     .aboutour h1.top{
-      font-size: 40px;
+      font-size: 37px;
     }
   }
   @media(max-width:575px){
