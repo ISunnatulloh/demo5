@@ -100,22 +100,19 @@ export default function Why() {
             <div className="carousel">
                 <div className="logo-slider">
                     <div className="logos-slide">
-                        <div className="logos-slide_item">Pigment Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Flexography <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Offset Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Transfer Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Pigment Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Flexography <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Offset Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Transfer Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Pigment Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Flexography <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Offset Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Transfer Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Pigment Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Flexography <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Offset Printing <img src={star} alt=""/></div>
-                        <div className="logos-slide_item">Transfer Printing <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Лучшее качество <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Стабильность <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Дизайн <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Отвтетственность <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Лучшее качество <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Стабильность <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Дизайн <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Отвтетственность <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Лучшее качество <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Стабильность <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Дизайн <img src={star} alt=""/></div>
+                        <div className="logos-slide_item">Отвтетственность <img src={star} alt=""/></div>
+
                     </div>
                 </div>
             </div>

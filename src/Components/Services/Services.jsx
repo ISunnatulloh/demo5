@@ -12,7 +12,7 @@ export default function Services() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <p className="top">//Тканевый стиль</p>
+            <p className="top">//От идеи до готового изделия</p>
             <h1 className="top">Открой для себя, как текстиль может изменить стиль!</h1>
           </div>
         </div>

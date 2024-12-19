@@ -7,7 +7,7 @@ export default function TextTitle() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <h5>//Ткань, которая живёт</h5>
+                        <h5>//Шьем с любовью и мастерством</h5>
                         <h1>ДИНАМИЧНО РАЗВИВАЮЩАЯ КОМПАНИЯ С БОЛЬШИМ ПОТЕНЦИАЛОМ</h1>
                         <div className="bigcard">
                             <div className="cardin">
